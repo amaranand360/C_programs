@@ -1,4 +1,4 @@
-# C Programming Learning Repository
+# C Programming Repository
 
 Welcome to the C Programming Learning Repository! This repository contains a comprehensive C programming tutorial file covering essential topics, including arrays, if-else statements, loops (for, while, do-while), switch statements, functions, pointers, structures, and file system operations.
 
