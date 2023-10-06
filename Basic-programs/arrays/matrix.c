@@ -30,7 +30,7 @@ void printmatrix(int mat[ROW][COL])
   }
 }
 
-void matrixsum(int mat1[ROW][COL], int mat2[ROW][COL], int sum[ROW][COL],int diff[ROW][COL])
+void matrixsum(int mat1[ROW][COL], int mat2[ROW][COL], int sum[ROW][COL], int diff[ROW][COL])
 {
   int i, j;
   for (i = 0; i < 3; i++)
@@ -39,7 +39,6 @@ void matrixsum(int mat1[ROW][COL], int mat2[ROW][COL], int sum[ROW][COL],int dif
     {
       sum[i][j] = mat1[i][j] + mat2[i][j];
       diff[i][j] = mat1[i][j] - mat2[i][j];
-
     }
   }
 }
@@ -51,13 +50,13 @@ void matrixsum(int mat1[ROW][COL], int mat2[ROW][COL], int sum[ROW][COL],int dif
 //   {
 //     for (j = 0; j < 3; j++)
 //     {
-      
+
 //       diff[i][j] = mat1[i][j] - mat2[i][j];
 //     }
 //   }
 // }
 
-void matrixtrans1(int mat[ROW][COL],int trans[ROW][COL])
+void matrixtrans1(int mat[ROW][COL], int trans[ROW][COL])
 {
   int i, j;
   for (i = 0; i < 3; i++)
@@ -74,7 +73,7 @@ int main()
   int mat1[ROW][COL];
   int mat2[ROW][COL];
   int sum[ROW][COL];
-  int diff[ROW][COL],trans1[ROW][COL],trans2[ROW][COL];
+  int diff[ROW][COL], trans1[ROW][COL], trans2[ROW][COL];
   //  int p[3][3];
   //  int add = 0;
 
@@ -90,24 +89,22 @@ int main()
   printf("The element of 2nd matrix:\n");
   printmatrix(mat2);
 
-  matrixsum(mat1, mat2, sum,diff);
+  matrixsum(mat1, mat2, sum, diff);
   printf("SUM of both matrices is : \n");
   printmatrix(sum);
 
   printf("Diffrence of both matrices is : \n");
   printmatrix(diff);
 
-  matrixtrans(mat1,trans1);
+  matrixtrans(mat1, trans1);
   printf("Transpose of 1st matrices is : \n");
   printmatrix(trans1);
 
-  matrixtrans(mat2,trans2);
+  matrixtrans(mat2, trans2);
   printf("Transpose of 2st matrices is : \n");
   printmatrix(trans2);
   return 0;
 }
-
-
 
 //     for(i=0;i<3;i++)
 //  { for(j=0;j<3;j++)
