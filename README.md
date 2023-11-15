@@ -35,10 +35,12 @@ To get started with learning C programming, simply clone this repository:
 ```bash
 git clone https://github.com/amaranand360/C_programs.git
 ```
+
 ## How to Use
 Open the Basic_programs_file.c in your preferred C programming environment or text editor. Each section is well-commented and contains examples to illustrate the concepts. Feel free to modify the file, experiment with the code, and use it as a reference while learning.
 
 ## Contributing
 If you find any errors, have suggestions for improvement, or want to add more content, contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
 ## Happy coding! 🚀
 
